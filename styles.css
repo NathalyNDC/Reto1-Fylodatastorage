@@ -78,13 +78,51 @@ body {
 
     .Fylo button img {
         width: 60%;
-        height: 50%;
+        height: 48%;
     }
 
     #doc img {
         width: 50%;
         height: 60%;
     }
+
+    .dialogForm {
+        color: black;
+        background-color: white;
+        width: 100px;
+        height: 40px;
+        position: fixed;
+        bottom: 450px;
+        left: 1025px;
+        border-radius: 5px;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .dialogForm strong {
+        font-size: 25px;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+        
+    }
+
+    .dialogForm p {
+        font-size: 10px;
+        margin: 0;
+        margin-left: 6px;
+        font-family: 'Roboto', sans-serif;
+    }
+    #triangulo{
+        width: 0;
+        height: 0;
+        border-top: 30px solid white;
+        border-right: 0px solid transparent;
+        border-left: 30px solid transparent;
+        position: fixed;
+        bottom: 435px;
+        left: 1095px;
+        }
 
     .Bar {
         margin: 0px 0px 60px 10px;
@@ -140,7 +178,7 @@ body {
         border-radius: 15px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
         padding: 2px;
-      }
+      }/*
       progress[value]::-webkit-progress-value::after {
         content: '.';
         width: 6px;
@@ -150,7 +188,7 @@ body {
         right: 7px;
         top: 7px;
         background-color: white;
-      }
+      }*/
 }
 
 /* 
