@@ -141,6 +141,9 @@ body {
 
     .tit {
         margin-bottom: 20px;
+        justify-self: flex-start;
+        align-self: flex-start;
+        margin-left: 35px;
     }
     
     #labProgress {
